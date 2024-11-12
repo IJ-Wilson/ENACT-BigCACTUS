@@ -51,7 +51,7 @@ Note: This data has been appropriately anonymised in accordance with Information
 
  2. Set up workspace:
 
-      a) Download the folder from GitHub and place it in your working directory
+      a) Download the ZIP folder from GitHub and place it in your working directory
       
       b) Ensure you know your working directory's file path (where the unzipped folder is located)
       
