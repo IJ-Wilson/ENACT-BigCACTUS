@@ -7,10 +7,14 @@ It could be generalised to fit the needs of your clinical trial. These instructi
 
 ## Information
 
+Further details on the provided, created and derived data, as well as the programs and functions used, will be included in the [instructions](#instructions).
+
 ### Data provided:
 - pilot_data_set.csv
 - data_set.csv
 - BigCACTUS_3arm_costs.csv
+
+Note: This data has been appropriately anonymised in accordance with Information Governance guidelines for sharing purposes. It serves as an illustrative representation of the real data, preserving similar patterns and key correlations. 
 
 ### Data created/derived:
 - CACTUS_spend_data_matlab.csv (1 total)
