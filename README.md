@@ -47,15 +47,17 @@ Note: This data has been appropriately anonymised in accordance with Information
      
      b) RStudio and R (original analyses conducted in R 4.4.1) - https://rstudio-education.github.io/hopr/starting.html
      
-     c) In addition, there will be software modules that will operate within each of these tools. The htadelay package has MATLAB code to generate stopping boundaries and make other general computations for value-adaptive trials. This ZIP has additional R code that will be used to manage clinical trial data and run bootstrap simulations and computations reported regarding the CACTUS trial
+     c) In addition, there will be software modules that will operate within each of these tools. The htadelay repository (https://github.com/sechick/htadelay) has MATLAB code to generate stopping boundaries and make other general computations for value-adaptive trials. This ENACT-BigCACTUS repository (https://github.com/IJ-Wilson/ENACT-BigCACTUS) has additional R code that will be used to manage clinical trial data and run bootstrap simulations and computations reported regarding the Big CACTUS trial
 
  2. Set up workspace:
 
-      a) Download the ZIP folder from GitHub and place it in your working directory
+      a) Download this ENACT-BigCACTUS R repository from GitHub and place it in your working directory; for example, follow the link (https://github.com/IJ-Wilson/ENACT-BigCACTUS), click ‘code’, click ‘download zip’
       
-      b) Ensure you know your working directory's file path (where the unzipped folder is located)
+      b) Place the 'Value-Based Sequential 2-Arm Design' ZIP folder (this has the necessary folder structure) in an appropriate place and unzip it
+
+      c) Ensure you know your working directory's file path (where the unzipped folder is located)
       
-      c) When unzipped, the following folder organisation will be created. Some of the R code explicitly uses this structure (but you can edit the directory structure in the code if you wish to adapt it further)
+      d) When unzipped, the following folder organisation will be created. Some of the R code explicitly uses this structure (but you can edit the directory structure in the code if you wish to adapt it further)
 ```
 Value-Based Sequential 2-Arm Design
 ├── Data
@@ -85,11 +87,11 @@ Value-Based Sequential 2-Arm Design
     
     c) Run the script and make a note of your **‘prob_mean_INB’ and ‘prob_sd_INB’**
 
-4. Download the htadelay MATLAB package:
+4. Download the htadelay MATLAB repository:
 
     _This package calculates the value-based sequential design stopping boundaries._
    
-    a) Follow the link (https://github.com/sechick/htadelay); click ‘code’; click ‘download zip’
+    a) Follow the link (https://github.com/sechick/htadelay), click ‘code’, click ‘download zip’
    
     b) This should be saved in the ‘Programs’ folder within your working directory
    
